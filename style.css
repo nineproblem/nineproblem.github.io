@@ -320,7 +320,6 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
 }
 .service-container .services-box{
     /*flex: 1 1 30rem;*/
@@ -652,6 +651,10 @@ span {
 @media (max-width: 580px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
+    }
+    .services {
+        
+        padding: 3rem;
     }
 }
 
