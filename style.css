@@ -286,6 +286,8 @@ span {
 .about-img img{
     width: 40vw;
     border-radius: 79% 21% 83% 17% / 18% 84% 16% 82% ;
+    border-bottom: 10px solid var(--banana-color);
+    border-top: 10px solid var(--banana-color);
 }
 .heading{
     font-size: 4.5rem;
